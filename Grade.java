@@ -1,13 +1,9 @@
 public class Grade {
-    int e;          // for english grade variable
-    int m;          // for math grade variable
+    int e;
+    int m;
 
-    void input_grade(int a, int b) {        // input grade method
-        e = a;
-        m = b;
-    }
-
-    void output_grade() {               // output total grade method
+    void output_grade()
+    {
         System.out.println(e+m);
     }
 }
