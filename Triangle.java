@@ -1,3 +1,5 @@
-public class Triangle extends Shape {
-    public double getArea(double h, double w) {return h*w*0.5;}
+class Triangle implements Figure {
+    private double height, width;
+    public Triangle(double h, double w) {height = h; width = w;}
+    public double getArea() {return height*width*0.5;}
 }
