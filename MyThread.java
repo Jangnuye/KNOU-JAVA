@@ -1,0 +1,5 @@
+class MyThread implements Runnable {
+    public void run() {
+        System.out.println("my thread");
+    }
+}
